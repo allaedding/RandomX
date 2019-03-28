@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="black_overlay">#66000000</color>
+    <item name="blue" type="color">#66c4ff</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#99cc00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#ff4444</item>
+    <item name="darkblue" type="color">#0099cc</item>
+    <item name="darkpurple" type="color">#9933cc</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+    <item name="customeblue" type="color">#3b5998</item>
+    <item name="lowDarkfont" type="color">#5d070e07</item>
+    <item name="white" type="color">#ffffff</item>
+    <item name="whiteback" type="color">#f9f9f9</item>
+    <item name="whitebackground" type="color">#d4d3d3</item>
+    <item name="black" type="color">#040303</item>
+    <item name="yellowA200" type="color">#FFD740</item>
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+        <item>@color/customeblue</item>
+        <item>@color/lowDarkfont</item>
+        <item>@color/white</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RandomX">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:textDirection="rtl" tools:targetApi="jelly_bean_mr1">
+
+        <ListView
+            android:id="@+id/LVMatches"
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:divider="@color/blue"
+            android:dividerHeight="5dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:layout_weight="0"
+            android:background="@color/whiteback"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+
+            <Button
+                android:id="@+id/bulogotype"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:background="@color/whiteback"
+                android:drawableEnd="@drawable/add1"
+                android:drawablePadding="8sp"
+                android:drawableRight="@drawable/add1"
+                android:onClick="buAddMatch"
+                android:text="@string/creatematch"
+                android:textAlignment="textStart"
+                android:textColor="@color/darkblue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buhome"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="start"
+                android:layout_weight="1"
+                android:background="@color/whiteback"
+                android:drawableEnd="@drawable/home1"
+                android:drawablePadding="8dp"
+                android:drawableRight="@drawable/home1"
+                android:onClick="buXmenu"
+                android:text="@string/home"
+                android:textAlignment="textStart"
+                android:textColor="@color/darkblue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

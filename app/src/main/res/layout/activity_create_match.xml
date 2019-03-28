@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96ddf7"
+
+    tools:context=".CreateMatch">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:touchscreenBlocksFocus="false">
+
+        <Button
+            android:id="@+id/BuSaveSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonblue"
+            android:drawablePadding="4dp"
+            android:drawableRight="@drawable/add"
+            android:onClick="busavematch"
+            android:paddingRight="5dp"
+            android:text="@string/addUser"
+            android:textColor="#fdfdfd"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/EDTPlyerNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64sp"
+        android:ems="5"
+        android:gravity="center"
+        android:hint="@string/yourNum"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/EDTMatchPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136sp"
+        android:ems="5"
+        android:gravity="center"
+        android:hint="@string/matchprice"
+        android:inputType="number" />
+
+</RelativeLayout>

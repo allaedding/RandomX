@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96ddf7"
+
+
+    tools:context=".SignUp">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:touchscreenBlocksFocus="false">
+
+        <EditText
+            android:id="@+id/EDTPlayerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:gravity="left"
+            android:hint="@string/UserName"
+            android:inputType="text"
+            android:maxLength="50"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:textColor="#ff1a102c"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/EDemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:gravity="left"
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:textColor="#ff1a102c"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/EDTpassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:hint="@string/AddPassword"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:textColor="#ff1a102c"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/EDTpasswordR"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:hint="@string/RepeatPassword"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:paddingBottom="9dp"
+            android:paddingTop="9dp"
+            android:textColor="#ff1a102c"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/BuSaveSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonblue"
+            android:drawablePadding="4dp"
+            android:drawableRight="@drawable/add"
+            android:onClick="busaveaccount"
+            android:paddingRight="5dp"
+            android:text="@string/addUser"
+            android:textColor="#fdfdfd"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

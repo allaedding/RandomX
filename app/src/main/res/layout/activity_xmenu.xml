@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88d2ee"
+    tools:context=".XMenu">
+
+    tools:context=".Login">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/whitebackground">
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#84cee9"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="30dp">
+
+            <LinearLayout
+                android:id="@+id/LLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="40sp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:orientation="vertical"
+                    android:touchscreenBlocksFocus="false">
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:orientation="vertical"
+                    android:touchscreenBlocksFocus="false">
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:textAlignment="center">
+
+
+
+                <Button
+                    android:id="@+id/bulogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+
+                    android:layout_weight="0"
+                    android:background="@drawable/buttonblue"
+                    android:drawablePadding="4dp"
+                    android:drawableRight="@drawable/newsa"
+                    android:onClick="buseeonline"
+                    android:text="@string/seeonline"
+                    android:textColor="#ff06071c" />
+
+                <Button
+                    android:id="@+id/BuSaveSetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+
+                    android:layout_weight="0"
+                    android:background="@drawable/buttonblue"
+                    android:drawablePadding="4dp"
+                    android:drawableRight="@drawable/add"
+                    android:onClick="bucreatematch"
+                    android:text="@string/creatematch"
+                    android:textColor="#ff06071c" />
+
+                <Button
+                    android:id="@+id/buProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+
+                    android:layout_weight="0"
+                    android:background="@drawable/buttonblue"
+                    android:drawablePadding="4dp"
+                    android:drawableRight="@drawable/add"
+                    android:onClick="bugoprofile"
+                    android:text="@string/profile"
+                    android:textColor="#ff06071c" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
