@@ -1,4 +1,19 @@
-android game using android studio 
+#RandomX
+this android app is divide three parts :
+
+##1)database "SQL server"
+
+link : https://github.com/allaedding/randomxdatabase
+
+##2)Webservice "c#"
+
+link : https://github.com/allaedding/Random
+
+##3)android interface "java" "android studio"
+
+link : https://github.com/allaedding/RandomX
+
+##wonderful android game using android studio 
 the interface contain many activities :
 check them in the project source-code.
 
@@ -10,12 +25,6 @@ because the concept that i started this project with,is bigger than what it this
 
 the Project folder conain a generated APK file.
 
-RandomX
-this android app is divide three parts :
-
-1)database "SQL server"
-2)Webservice "c#"
-3)android interface "java" "android studio"
 
 The idea of this game is simple:
 Choose a number of 4 non-duplicate numbers in your mind,as well your competitor.
