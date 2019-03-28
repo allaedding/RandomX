@@ -60,5 +60,37 @@ b) if the other player loss
 a)if you play with all your playing money
 b)if other player wins
 
-/*******************************************************************************
+# /*******************************************************************************
 see video and screenshots for more clarity.
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-06-42.png)
+
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-07-42.png)
+
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-08-15.png)
+
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-08-21.png)
+
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-09-53.png)
+
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-16-03.png)
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-16-22.png)
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-16-47.png)
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-16-54.png)
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-17-08.png)
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-18-08.png)
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-18-26.png)
+
+![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-20-31.png)
+
