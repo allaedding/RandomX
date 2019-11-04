@@ -70,6 +70,12 @@ a)if you play with all your playing money
 b)if other player wins
 
 # /*******************************************************************************
+##Video on youtube illustrating how the game works:
+
+link : https://youtu.be/TsNFgnMMdUc
+
+
+# /*******************************************************************************
 see video and screenshots for more clarity.
 
 ![Screenshot_2018-04-12-21-06-42](https://github.com/allaedding/RandomX/blob/master/Screenshots/Screenshot_2018-04-12-21-06-42.png)
